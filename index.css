@@ -1,0 +1,61 @@
+body {
+    background-image: url("bubble.jpeg.webp");
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.container {
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 10px 0 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor:auto;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(96, 78, 162);
+    transform: translatey(-0.1rem);
+    transition: transform 100ms;
+
+}
+
+#increment-btn {
+    background: #1b15cc;
+}
+
+#save-btn {
+    background: rgb(42, 215, 11);
+}
+
+#save-el {
+    font-weight: bold;
+}
+
